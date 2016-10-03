@@ -18,7 +18,14 @@ function articlesGet($id)
 
 function articlesNew($title, $date, $content)
 {
-  # code...
+  # Подготовка
+  $title = trim($title);
+  $content = trim($content);
+
+  # Проверка
+  if ($title == "") {
+    return false;
+  }
 }
 
 function articlesEdit($id, $title, $date, $content)
