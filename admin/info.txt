@@ -1,0 +1,3 @@
+f:
+cd f:/openserver/modules/http/Apache-2.4/bin
+htpasswd.exe -c .htpasswd admin
